@@ -13,7 +13,9 @@ jobs:
           node-version: '20.17.x'
       - name: Check Node Version
         run: node --version
-      - name: Build application avec les dependances
-        run: npm ci | npm run build
+      - name: Build les dependances
+        run: npm ci 
+      - name: Build application
+        run: npm run build
       - name: List dist output
         run: ls dist/
