@@ -20,5 +20,7 @@ jobs:
         run: npm run build
       - name: Run lint
         run: npm run lint
+      - name: Run tests
+        run: npm run test
       - name: List dist output
         run: ls dist/
