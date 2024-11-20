@@ -1,4 +1,4 @@
- 
+/* eslint-disable @typescript-eslint/no-explicit-any -- supertest forces us to use any */ 
 
 import {expect, jest, test} from '@jest/globals';
 import { Pool } from 'pg';
